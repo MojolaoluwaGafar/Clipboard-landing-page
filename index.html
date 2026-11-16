@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        Green500: 'hsl(171, 66%, 44%)',
+                        Blue100: 'hsl(233, 100%, 69%)',
+                        Gray700: 'hsl(210, 10%, 33%)',
+                        Gray500: 'hsl(201, 11%, 66%)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    * {
+        font-family: "Bai Jamjuree", sans-serif;
+    }
+    </style>
+
+</head>
+<body class="w-full min-h-screen">
+    <main class="bg-[url(./images/bg-header-mobile.png)] lg:bg-[url(./images/bg-header-desktop.png)] bg-no-repeat bg-contain w-full">
+     <div class="w-full container mx-auto">
+           
+        <section class="flex flex-col items-center justify-center px-5 gap-7 min-h-screen lg:min-h-[600px] text-center">
+            <img class="object-cover" src="./images/logo.svg" alt="logo">
+         
+            <div class="lg:w-[640px] flex flex-col gap-4">
+            <h1 class="text-[32px] lg:text-[38px] font-semibold text-Gray700">A history of everything you copy</h1>
+            <p class="text-[18px] font-thin text-Gray500">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.
+            </p>
+            </div>
+
+           <div class="flex flex-col lg:flex-row w-full lg:w-[500px] gap-4 font-semibold">
+             <button class="bg-Green500 border border-Green500 text-white py-5 w-full rounded-[50px] border shadow-2xl" type="button">Download for iOS</button>
+            <button class="bg-Blue100 border border-Blue100 text-white py-5 w-full rounded-[50px] border shadow-2xl" type="button">Download for Mac</button>
+           </div>
+        </section>
+
+        <section class="flex flex-col items-center justify-center px-4 gap-7 py-[50px] text-center">
+          
+            <h1 class="text-[32px] lg:text-[38px] font-semibold text-Gray700">Keep track of your snippets</h1>
+            <p class="text-[18px] font-thin text-Gray500 lg:w-[700px]">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+           
+            <div class="w-full flex flex-col lg:flex-row justify-between gap-20 py-10">
+
+                
+                <div class="w-full lg:w-1/2" >
+                    <img class="object-contain w-full" src="./images/image-computer.png" alt="">
+                </div>
+
+
+
+
+                <div class="w-full text-center flex flex-col justify-center gap-8 lg:gap-10 lg:w-1/2 lg:text-start text-[18px] lg:pr-[300px] font-thin text-Gray500">
+                <div>
+                <h1 class="text-[32px] lg:text-[20px] font-semibold text-Gray700">Quick Search</h1>
+                <p class="lg:text-[14px]">Easily search your snippets by content, category, web address, application, and more.</p>
+                </div>
+
+                <div>
+                <h1 class="text-[32px] lg:text-[20px] font-semibold text-Gray700">iCloud Sync</h1>
+                <p class="lg:text-[14px]">Instantly saves and syncs snippets across all your devices.</p>
+                </div>
+
+                <div>
+                <h1 class="text-[32px] lg:text-[20px] font-semibold text-Gray700">Complete History</h1>
+                <p class="lg:text-[14px]">Retrieve any snippets from the first moment you started using the app.</p>
+                </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="w-full flex flex-col lg:flex-row justify-between text-center lg:gap-20 py-10">
+            <h1>Access Clipboard Anywhere</h1>
+            <p>Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+            <img src="./images/image-devices.png" alt="">
+        </section>
+
+        <section>
+            <h1>Supercharge your workflow</h1>
+            <p>w've got the tools to boost your productivity</p>
+
+            <div>
+                <div>
+                    <img src="./images/icon-blacklist.svg" alt="">
+                    <h1>Create blacklists</h1>
+                    <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+                </div>
+
+                <div>
+                    <img src="./images/icon-text.svg" alt="">
+                    <h1>Plain text snippets</h1>
+                    <p>Remove unwanted formatting from copied text for a consistent look.</p>
+                </div>
+
+                <div>
+                    <img src="./images/icon-preview.svg" alt="">
+                    <h1>Sneak preview</h1>
+                    <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <img src="./images/logo-google.png" alt="">
+            <img src="./images/logo-ibm.png" alt="">
+            <img src="./images/logo-microsoft.png" alt="">
+            <img src="./images/logo-hp.png" alt="">
+            <img src="./images/logo-vector-graphics.png" alt="">
+        </section>
+
+        <section>
+            <h1>Clipboard for iOS and Mac OS</h1>
+            <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready to start adding to your clipboard.</p>
+
+            <div>
+                <button>Download for iOS</button>
+                <button>Download for Mac</button>
+            </div>
+        </section>
+
+
+        <footer>
+            <img src="./images/logo.svg" alt="">
+
+            <nav>
+                <a href="/##">FAQs</a>
+                <a href="/##">Contact Us</a>
+                <a href="/##">Privacy Policy</a>
+                <a href="/##">Press Kit</a>
+                <a href="/##">Install Guide</a>
+            </nav>
+
+            <div>
+                <img src="./images/icon-facebook.svg" alt="">
+                <img src="./images/icon-twitter.svg" alt="">
+                <img src="./images/icon-instagram.svg" alt="">
+            </div>
+        </footer>
+     </div>
+    </main>
+</body>
+</html>
